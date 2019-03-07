@@ -1,0 +1,25 @@
+.galleryone{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw ;
+}
+
+.gallerytwo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+/*.galleryone img { 
+    width: 100%;
+} */
+
+.galleryone-image{
+    width: 100%;
+}
+.galleryone--background{
+    background-color: pink;
+}
+
+.gallerytwo .item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
